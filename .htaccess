@@ -1,6 +1,7 @@
 AddDefaultCharset utf-8
 <IfModule mod_rewrite.c>
 RewriteEngine on
+RewriteBase /happycoders/perfex_crm/
 RewriteCond $1 !^(index\.php|resources|robots\.txt)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
